@@ -1,0 +1,29 @@
+{
+  "name": "crestoria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hot-loader": "^4.13.0",
+    "webpack": "^5.11.1",
+    "webpack-hot-middleware": "^2.25.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack-dev-middleware": "^4.0.2",
+    "babel-loader": "^8.2.2"
+  }
+}
